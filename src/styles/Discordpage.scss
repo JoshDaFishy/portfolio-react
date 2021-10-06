@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+.Container {
+    display: grid;
+    position: center;
+}
+
+
+.backgroundsquare {
+    background-color: #2B2B2B;
+    width: 10em;
+    height: 9em;
+    color: white;
+    border-radius: 41px;
+    border: 1px solid #404040;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+.discordPFPclass {
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.accountinfo {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.discordtag {
+    color: #AEAEAE;
+}
+
+.discordusername {
+    font-family: Poppins;
+    font-weight: Bold;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 1em;
+
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.ConnectionInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+    font-size: 18px;
+}
+
+.ConnectionIcon {
+    margin-left: 0.5em;
+    height: 1.3em;
+}
+
+.ConnectionName {
+    font-size: 17px;
+}
+
+.YoutubeIcon {
+    margin-left: 0.5em;
+    height: 0.8em;
+}
