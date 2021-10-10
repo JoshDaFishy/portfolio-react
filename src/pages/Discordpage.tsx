@@ -45,6 +45,13 @@ const Discord: React.FunctionComponent = () => {
                     </div>
                 </div>
             </div>
+            <div className="BacktoHome">
+                    <a href="/">
+                        <p>
+                            Back to Homepage
+                        </p>
+                    </a>
+                </div>
         </div>
     );
 };

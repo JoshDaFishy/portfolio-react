@@ -3,17 +3,7 @@
 .Container {
     display: flex;
     flex-direction: column;
-}
-
-.backgroundSquare {
-    background-color: #2B2B2B;
-    width: 19em;
-    height: 11em;
-    color: white;
-    border-radius: 41px;
-    border: 1px solid #404040;
-    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.25);
-    z-index: 100;
+    align-items: center;
 }
 
 .pageHeader {
@@ -29,4 +19,28 @@
     margin-bottom: 0.3em;
     line-height: 0.8em;
     margin-top: -0.8em;
+}
+
+.GithubSource {
+    height: 1.1em;
+    width: auto;
+}
+
+.GithubName {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.GithubAboutMe {
+    display: flex;
+    position: absolute;
+    right: 0.4em;
+    top: 0.4em;
+    align-items: center;
+}
+
+.GithubInfo {
+    padding-left: 0.2em;
+    font-weight: 200;
 }

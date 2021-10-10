@@ -287,6 +287,10 @@ img {
     height: 50px;
 }
 
+.conqu3red {
+    width: auto;
+    height: 60px;
+}
 
 /* CSS */
 .button-portfolio {
@@ -314,7 +318,7 @@ img {
     -webkit-user-select: none;
     touch-action: manipulation;
     /* width: 100%; */
-    will-change: transform;
+    will-change: none;
     margin-top: 1em;
 }
 
@@ -328,6 +332,7 @@ img {
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
+    will-change: none;
 }
 
 .button-portfolio:active {

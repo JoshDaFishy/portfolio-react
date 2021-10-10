@@ -33,7 +33,7 @@ function App() {
           <Route exact path="/discord">
             <Discord/>
           </Route>
-          <Route exact path="/github">
+          <Route exact path="/conqu3red">
             
           </Route>
           <Route exact path="/aboutMe">
